@@ -27,3 +27,11 @@
     width: 100%; /* Asegura que la imagen llene el contenedor */
 
 }
+
+.foto_principal{
+   
+        max-width: 100%;
+        height: auto;
+    
+
+}

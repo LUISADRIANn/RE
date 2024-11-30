@@ -16,19 +16,7 @@
     gap: 10px;
   }
 
-  /*Last barra*/
-  .Twobarra {
-    position: absolute; /* Mantén la barra fija si necesitas que siempre esté visible */
-    left: 0; /* Comienza desde el borde izquierdo */
-    width: 100%; /* Ocupa el 100% del contenedor principal */
-    background-color: rgb(29, 33, 32); /* Color de fondo */
-    display: flex; /* Flexbox para organizar el contenido */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    padding: 20px 0; /* Espaciado vertical */
-    border-bottom: 2px solid rgb(238, 0, 0); /* Línea negra en la parte inferior */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
-    margin: 0; /* Elimina márgenes adicionales */
-  }
+
 
 
   .TwobarraEnd {
@@ -39,6 +27,7 @@
     display: flex; /* Flexbox para organizar el contenido */
     padding: 20px 0; /* Espaciado vertical */
     box-sizing: border-box; /* Incluye el padding en el ancho total */
+    z-index: 10011101; /* Asegura que la barra esté por encima de otros elementos */
     margin: 0; /* Elimina márgenes adicionales */
     gap: 50px;
     justify-content: center;
