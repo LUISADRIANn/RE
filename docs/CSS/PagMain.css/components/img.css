@@ -1,0 +1,29 @@
+.imagen-uniforme {
+    width: 200px; /* Ancho uniforme */
+    height: 200px; /* Alto uniforme */
+    overflow: hidden; /* Oculta las partes sobrantes de la imagen */
+    display: flex; /* Centra la imagen si es necesario */
+    justify-content: center;
+    border: 11px solid antiquewhite; /* (Opcional) Para visualizar los bordes del contenedor */
+}
+
+.imagen-uniforme img {
+    width: 100%; /* Asegura que la imagen llene el contenedor */
+    height: 100%; /* Asegura que la imagen llene el contenedor */
+    object-fit: cover; /* Recorta la imagen y ajusta sin deformarla */
+}
+
+
+.img_card_1{
+    height: 70%; /* Asegura que la imagen llene el contenedor */
+    
+}
+.img_card{
+    height: 60%; /* Asegura que la imagen llene el contenedor */
+    
+}
+.img_card_python{
+    width: 80%; /* Asegura que la imagen llene el contenedor */
+    width: 100%; /* Asegura que la imagen llene el contenedor */
+
+}

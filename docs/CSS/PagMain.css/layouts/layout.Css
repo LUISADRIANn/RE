@@ -1,0 +1,72 @@
+.project {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Define columnas */
+    padding: 20px;
+    background-color: #ffffff;
+    max-width: 800px;
+    text-align: center;
+    gap: 10px; /* Espaciado entre elementos */
+    margin: auto; /* Centra horizontalmente */
+    border-radius: 18px;
+    height: 300px; /* Asegura que el grid tenga una altura definida */
+}
+
+
+/* Estilo de cada tarjeta de proyecto */
+.project-card {
+    width: 200px; /* Ancho uniforme */
+    height: 200px; /* Alto uniforme */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 50px 9px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden; /* Oculta las partes sobrantes de la imagen */
+
+}
+
+/* Efecto hover en las tarjetas */
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Título principal */
+.project-container header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Título de cada proyecto */
+.project-card h2 {
+    font-size: 1.2rem;
+    background-color: aliceblue;
+    border-radius: 5px;
+    color: #800000; /* Color rojo */
+    margin-bottom: 10px;
+}
+
+/* Descripción del proyecto */
+.project-card p {
+    font-size: 1.9rem;
+    color: #666;
+}
+
+
+
+
+/*layaut de main*/
+/* Estilos para el main centra element main or end */
+ .logoMain  {
+  
+    display: flex;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+    

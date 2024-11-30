@@ -1,0 +1,40 @@
+*{font-family:cursive}
+
+
+/* Estilo base para el botón */
+.bT a{
+    text-decoration: none; /* Quitar la línea */
+    display: inline-block; /* Para comportarse como botón */
+    padding: 10px 20px; /* Espaciado interno */
+    background-color:rgb(187, 169, 147); /* Color de fondo */
+    color: white; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ; /* Fuente */
+    text-align: center; /* Centrar texto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra */
+    transition: background-color 0.3s, transform 0.2s; /* Animación suave */
+}
+
+/* Hover (cuando el mouse pasa encima) */
+.bT:hover a {
+    background-color: antiquewhite; /* Cambio de color */
+    transform: translateY(-2px); /* Efecto de elevación */
+    color: rgb(2, 2, 2); /* Color del texto */
+
+}
+
+/* Active (cuando el botón es clicado) */
+.bT:active {
+    background-color: #003f7f; /* Color más oscuro */
+    transform: translateY(0); /* Sin elevación */
+
+}
+
+.scrollable{
+
+    display: flex;
+    
+
+}

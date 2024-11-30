@@ -1,0 +1,132 @@
+
+
+/* Reinicia los márgenes y el padding del cuerpo y otros elementos
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+ */
+/* Encabezado */
+
+
+
+/* Contenedor de los botones*/
+.ButtonHeader {
+  display: flex;
+  align-items: center;
+
+  
+  gap: 20px; /* Espacio entre los elementos del menú */
+}
+
+/* Estilos para las cajas en el encabezado */
+.bottonHeader {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+}
+
+
+
+.content{
+  position: relative;
+  color: rgb(7, 56, 14);
+}
+
+.experimento{
+  position: absolute;
+}
+
+
+
+.Features_card__UA2E\+{
+  cursor: auto;
+  padding: 2.5rem;
+}
+
+
+
+
+.bBracket {
+    outline: none;
+    transition: transform 0.25s ease; /* Ajusta la duración de la transición */
+    animation: pulso 1.5s ease-in-out infinite; /* Aplica la animación de pulso cuando el ratón no está encima */
+}
+
+/* Define la animación de pulso */
+@keyframes pulso {
+    0%, 100% {
+        transform: scale(1)  ;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Efecto de hover para escalar el elemento */
+.bBracket:hover {
+    animation: none; /* Pausa la animación de pulso al hacer hover */
+    transform: scale(1.1); /* Escala el elemento al pasar el ratón por encima */
+}
+.bBracket1{
+  outline: none;
+  transition: transform 0.25s ease ;
+  animation: pulso2 1.5s ease-in-out infinite;
+}
+
+@keyframes pulso2 {
+  0%, 100%{
+    transform: scale(1) scaleX(-1);
+  }
+  50% {
+    transform: scale(1.1) scaleX(-1);
+  }
+}
+
+.bBracket1:hover{
+  animation: none;
+  transform: scale(1.1) scaleX(-1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Icono de hamburguesa */
+#hamburguesa-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Menú de hamburguesa */
+#menu {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* Pie de página */
+
+
+
+  button {
+    transition: transform 1.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.2); /* Agranda el botón al 120% */
+    box-shadow: 0px 8px 16px rgba(235, 0, 0, 0.3); /* Añade sombra */
+}
+
