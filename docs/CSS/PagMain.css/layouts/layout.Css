@@ -59,14 +59,25 @@
 
 /*layaut de main*/
 /* Estilos para el main centra element main or end */
- .logoMain  {
-  
+    .logoMain  {
+    
+        display: flex;
+        max-width: 500px;
+        flex-wrap: wrap;
+        background-color: antiquewhite;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: auto; /* Centra horizontalmente el contenedor en la página */
+        
+    }
     display: flex;
+    max-width: 500px;
     flex-wrap: wrap;
     background-color: antiquewhite;
     flex-direction: row;
     justify-content: center;
+    align-items: center; /* Centra verticalmente */
     text-align: center;
-    
-}
-    
+    margin: auto; /* Centra horizontalmente el contenedor en la página */
+    height: 200px; /* Para ver mejor el efecto, define una altura */
