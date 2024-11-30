@@ -1,9 +1,9 @@
 .project {
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Define columnas */
+    grid-template-columns: repeat(3, minmax(30%, 1fr)); /* Define columnas */
     padding: 20px;
     background-color: #ffffff;
-    max-width: 900px;
+    max-width: 801px;
     text-align: center;
     gap: 10px; /* Espaciado entre elementos */
     margin: auto; /* Centra horizontalmente */
@@ -14,7 +14,6 @@
 
 /* Estilo de cada tarjeta de proyecto */
 .project-card {
-    width: 80%; /* Ancho uniforme */
     background-color: white;
     border-radius: 10px;
     box-shadow: 2px 2px 50px 9px rgba(0, 0, 0, 0.1);
